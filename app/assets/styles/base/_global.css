@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto:wght@300;400&family=Source+Serif+Pro:wght@400;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #333;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(205, 247, 231, 1) 100%
+  );
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: $mainBlue;
+}
+
+h2 {
+  font-family: "Marck Script", cursive;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h3,
+h4 {
+  font-family: "Source Serif Pro", serif;
+}

@@ -1,0 +1,38 @@
+.vote-me {
+  width: 100%;
+  min-height: 400px;
+  padding: 5em 0;
+
+  &__text {
+    padding-bottom: 2em;
+    i {
+      color: $mainGreen;
+    }
+
+    p {
+      color: #333;
+    }
+  }
+
+  &__images {
+    flex-wrap: wrap;
+
+    .first {
+      align-self: start;
+    }
+    @mixin atMedium {
+      justify-content: space-between;
+    }
+    img {
+      padding: 0.25em;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+      margin-bottom: 1em;
+      border: 0.25em solid $mainGreen;
+      border-radius: 10px;
+
+      @mixin atMedium {
+        width: 49%;
+      }
+    }
+  }
+}
